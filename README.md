@@ -1,6 +1,18 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project comprises a basic React app for displaying the season (winter/summer) based on a user's location and time of year.  If the user is in the northern hemisphere and the current date is between the colder months of October-March then a message indicating it is cold is displayed - "Brrr... it's cold" with winter 'snowflake' icons.  Likewise, if a user is located in the southern hemisphere for those same months, then a message indicating it is warm is displayed - "Let's hit the beach" along with 'sun' icons.  The reverse is true for the other six months of the year.
+
+This project is part of practice exercises for Stephen Grider's Udemy course, [Modern React with Redux](https://www.udemy.com/course/react-redux/).  The project helps practice using core React JS concepts including the following:  
+1) Building Content with JSX
+2) Communicating with Props
+3) Structuring Apps with Class-Based Components
+4) State in React Component
+5) Understanding Lifecycle Methods
+6) Handling User Input with Forms and Events
+
+## Result - Demo
+![Seasons App](seasons-demo.gif)
 
 ## Available Scripts
 
